@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Pi5Pretty")(type "KiCad")(uri "C:/Users/arice/Downloads/RP-008099-DD-CM5-IO-Board-revision-2-KiCAD-files/CM5IO.pretty")(options "")(descr ""))
+  (lib (name "PHPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/168873061-658-1436987/1436987/KiCad")(options "")(descr ""))
+  (lib (name "Sim7600Pretty")(type "KiCad")(uri "C:/Users/arice/Downloads/SIM7600E-H")(options "")(descr ""))
+  (lib (name "RPLBuckPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/RPL-10-CT")(options "")(descr ""))
+  (lib (name "MCP2562Pretty")(type "KiCad")(uri "C:/Users/arice/Downloads/ul_MCP2562FDT-H-SN/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "MCP2562-HPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/ul_MCP2562FD-H-SN/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "PH5pinPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/168878781-658-1432431/1432431/KiCad")(options "")(descr ""))
+  (lib (name "ADS1115Pretty")(type "KiCad")(uri "C:/Users/arice/Downloads/ADS1115BQDGSRQ1")(options "")(descr ""))
+  (lib (name "HDMIPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/G45A19071083HR")(options "")(descr ""))
+  (lib (name "NVMEPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/MDT420M01002")(options "")(descr ""))
+)

@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pi5Compute")(type "KiCad")(uri "C:/Users/arice/Downloads/RP-008099-DD-CM5-IO-Board-revision-2-KiCAD-files/CM5IO.kicad_sym")(options "")(descr ""))
+  (lib (name "PH168873061")(type "KiCad")(uri "C:/Users/arice/Downloads/168873061-658-1436987/1436987/KiCad/1436987.kicad_sym")(options "")(descr ""))
+  (lib (name "Sim7600")(type "KiCad")(uri "C:/Users/arice/Downloads/SIM7600E-H/SIM7600E-H.kicad_sym")(options "")(descr ""))
+  (lib (name "RPLBuck")(type "KiCad")(uri "C:/Users/arice/Downloads/RPL-10-CT/RPL-10-CT.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP2562")(type "KiCad")(uri "C:/Users/arice/Downloads/ul_MCP2562FDT-H-SN/KiCADv6/2025-08-26_19-55-36.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP2562-H")(type "KiCad")(uri "C:/Users/arice/Downloads/ul_MCP2562FD-H-SN/KiCADv6/2025-08-26_20-00-35.kicad_sym")(options "")(descr ""))
+  (lib (name "PH1432431")(type "KiCad")(uri "C:/Users/arice/Downloads/168878781-658-1432431/1432431/KiCad/1432431.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS1115")(type "KiCad")(uri "C:/Users/arice/Downloads/ADS1115BQDGSRQ1/ADS1115BQDGSRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "HDMI")(type "KiCad")(uri "C:/Users/arice/Downloads/G45A19071083HR/G45A19071083HR.kicad_sym")(options "")(descr ""))
+  (lib (name "NVME")(type "KiCad")(uri "C:/Users/arice/Downloads/MDT420M01002/MDT420M01002.kicad_sym")(options "")(descr ""))
+)
