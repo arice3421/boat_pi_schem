@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "585051d9-fdd6-4d3a-894a-9b433db68d56")
-	(paper "A2")
+	(paper "A0")
 	(title_block
 		(title "Yamaha Boat Dash")
 		(date "2025-08-28")
@@ -9774,6 +9774,7 @@
 					(italic yes)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
