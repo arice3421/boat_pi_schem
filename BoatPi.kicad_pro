@@ -491,7 +491,9 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+5V": "rgb(173, 255, 88)"
+    },
     "netclass_assignments": {
       "/Sheet2/Sim7600_DP": [
         "Default"
