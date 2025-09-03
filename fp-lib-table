@@ -18,4 +18,6 @@
   (lib (name "SMAconPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/CONSMA002-SMD-G")(options "")(descr ""))
   (lib (name "470uFCeramPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/JMK316BBJ227ML-TE")(options "")(descr ""))
   (lib (name "10uFCeramPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/C2012X5R1V106M125AC")(options "")(descr ""))
+  (lib (name "FuseHolderPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/696315001002 (1)")(options "")(descr ""))
+  (lib (name "NewFuseHolderPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/3550-2")(options "")(descr ""))
 )

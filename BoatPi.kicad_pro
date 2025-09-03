@@ -494,11 +494,7 @@
     "net_colors": {
       "+5V": "rgb(173, 255, 88)"
     },
-    "netclass_assignments": {
-      "/Sheet2/Sim7600_DP": [
-        "Default"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -728,6 +724,24 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAD_BUILD",
+          "name": "CAD_BUILD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
           "show": false
         }
       ],

@@ -18,4 +18,6 @@
   (lib (name "SMAcon")(type "KiCad")(uri "C:/Users/arice/Downloads/CONSMA002-SMD-G/CONSMA002-SMD-G.kicad_sym")(options "")(descr ""))
   (lib (name "470uFCeram")(type "KiCad")(uri "C:/Users/arice/Downloads/JMK316BBJ227ML-TE/JMK316BBJ227ML-TE.kicad_sym")(options "")(descr ""))
   (lib (name "10uFCeram")(type "KiCad")(uri "C:/Users/arice/Downloads/C2012X5R1V106M125AC/C2012X5R1V106M125AC.kicad_sym")(options "")(descr ""))
+  (lib (name "FuseHolder")(type "KiCad")(uri "C:/Users/arice/Downloads/696315001002/696315001002.kicad_sym")(options "")(descr ""))
+  (lib (name "NewFuseHolder")(type "KiCad")(uri "C:/Users/arice/Downloads/3550-2/3550-2.kicad_sym")(options "")(descr ""))
 )
