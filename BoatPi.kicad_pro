@@ -725,24 +725,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CAD_BUILD",
-          "name": "CAD_BUILD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CREATOR",
-          "name": "CREATOR",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "VERIFIER",
-          "name": "VERIFIER",
-          "show": false
         }
       ],
       "filter_string": "",
