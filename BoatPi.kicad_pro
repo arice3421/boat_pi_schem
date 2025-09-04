@@ -492,7 +492,11 @@
       "version": 4
     },
     "net_colors": {
-      "+5V": "rgb(173, 255, 88)"
+      "+5V": "rgb(173, 255, 88)",
+      "/Sheet2/PER0_N": "rgb(255, 251, 83)",
+      "/Sheet2/PER0_P": "rgb(255, 249, 73)",
+      "Net-(J3-PER0_N)": "rgb(255, 251, 83)",
+      "Net-(J3-PER0_P)": "rgb(255, 249, 73)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
@@ -724,6 +728,30 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAD_BUILD",
+          "name": "CAD_BUILD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
           "show": false
         }
       ],

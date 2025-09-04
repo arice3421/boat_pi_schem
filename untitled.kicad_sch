@@ -1308,7 +1308,7 @@
 				(pin input line
 					(at -25.4 33.02 0)
 					(length 2.54)
-					(name "PERp0"
+					(name "PER0_P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1326,7 +1326,7 @@
 				(pin input line
 					(at -25.4 30.48 0)
 					(length 2.54)
-					(name "PERn0"
+					(name "PER0_N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1344,7 +1344,7 @@
 				(pin output line
 					(at -25.4 27.94 0)
 					(length 2.54)
-					(name "PETp0"
+					(name "PET0_P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1362,7 +1362,7 @@
 				(pin output line
 					(at -25.4 25.4 0)
 					(length 2.54)
-					(name "PETn0"
+					(name "PET0_N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8035,6 +8035,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 38.1 67.31)
@@ -8049,6 +8150,12 @@
 		(uuid "04f3591d-7781-486d-9bb3-4db451c453b3")
 	)
 	(junction
+		(at 335.28 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1334a3f6-c63f-466b-98b9-502a5fe7bdb4")
+	)
+	(junction
 		(at 44.45 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8061,22 +8168,10 @@
 		(uuid "1aa2cfdb-bfd7-4c9e-83b4-e5b6799dd471")
 	)
 	(junction
-		(at 255.27 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "205b87a8-6e1c-425f-b93d-e2299d3c7a79")
-	)
-	(junction
 		(at 271.78 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28f4fc6b-21a6-4726-952c-2da88c549fcc")
-	)
-	(junction
-		(at 222.25 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29b6cb52-7e5c-49a0-a335-e40cd3cd2c25")
 	)
 	(junction
 		(at 237.49 162.56)
@@ -8193,12 +8288,6 @@
 		(uuid "7c17b289-96f1-44e6-96ca-c6bcd84c9e00")
 	)
 	(junction
-		(at 41.91 316.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e9a68cf-1c2b-437f-82c0-9958d8a66e86")
-	)
-	(junction
 		(at 147.32 316.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8233,6 +8322,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "904edf27-12e9-4708-a842-359350b03de4")
+	)
+	(junction
+		(at 241.3 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977a2c0e-3a80-48e6-bff6-34f2eaa696e8")
 	)
 	(junction
 		(at 180.34 257.81)
@@ -8275,12 +8370,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4af17d8-f132-40f7-9ec0-ec44261c7c37")
-	)
-	(junction
-		(at 90.17 316.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba8df153-3451-4acd-bc15-d0bbd63e4a57")
 	)
 	(junction
 		(at 67.31 67.31)
@@ -8373,6 +8462,12 @@
 		(uuid "efa64db5-615e-491f-9114-f04ea6ddc2cc")
 	)
 	(junction
+		(at 41.91 316.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f460df48-0510-41be-81bc-2132e171d83c")
+	)
+	(junction
 		(at 284.48 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8395,10 +8490,6 @@
 		(uuid "03da10c8-e009-44e1-bce0-687835f01142")
 	)
 	(no_connect
-		(at 161.29 85.09)
-		(uuid "04d23a30-14eb-4d99-8dd8-9a53ad4b7ab9")
-	)
-	(no_connect
 		(at 161.29 125.73)
 		(uuid "0e7930fc-f3ab-4c64-bf48-d37bcf5df408")
 	)
@@ -8413,10 +8504,6 @@
 	(no_connect
 		(at 100.33 163.83)
 		(uuid "1162f027-42a4-42ac-a0a0-9e8d765f8aaa")
-	)
-	(no_connect
-		(at 100.33 123.19)
-		(uuid "150ec495-61fb-4b36-ba92-6408060f240f")
 	)
 	(no_connect
 		(at 161.29 151.13)
@@ -8439,16 +8526,12 @@
 		(uuid "27842e76-81fa-4a70-9106-f155025b9e6d")
 	)
 	(no_connect
-		(at 161.29 92.71)
-		(uuid "2acf3ee9-a58d-42d6-a072-17ff03e3bf13")
+		(at 224.79 255.27)
+		(uuid "2cb22b74-a63d-400d-8e3f-2b60886bf610")
 	)
 	(no_connect
 		(at 161.29 80.01)
 		(uuid "2d7b7c07-2173-470a-93b8-30be4728568d")
-	)
-	(no_connect
-		(at 100.33 153.67)
-		(uuid "30493b99-2c24-41cc-918b-538bedd1bfc6")
 	)
 	(no_connect
 		(at 267.97 151.13)
@@ -8479,10 +8562,6 @@
 		(uuid "3ae0a219-de28-4045-9378-d5204aa06117")
 	)
 	(no_connect
-		(at 100.33 168.91)
-		(uuid "3d317a73-f580-4b4b-a071-bf6b91d97094")
-	)
-	(no_connect
 		(at 161.29 113.03)
 		(uuid "3dc9cae2-b02b-4061-8962-01e69c358d4e")
 	)
@@ -8499,10 +8578,6 @@
 		(uuid "48a18587-79db-431a-885a-2427c4be8960")
 	)
 	(no_connect
-		(at 161.29 138.43)
-		(uuid "48c65b6c-735c-4290-8cf6-a965fa843b22")
-	)
-	(no_connect
 		(at 267.97 146.05)
 		(uuid "4bf8840e-baf1-49a2-9812-badb844937dd")
 	)
@@ -8515,10 +8590,6 @@
 		(uuid "532ac975-63b3-414e-aa52-dac8294be708")
 	)
 	(no_connect
-		(at 100.33 184.15)
-		(uuid "5428db56-27f9-4a14-b294-0bfbd9f9d758")
-	)
-	(no_connect
 		(at 100.33 173.99)
 		(uuid "56f31333-1efb-4c51-9203-384236b120fb")
 	)
@@ -8529,10 +8600,6 @@
 	(no_connect
 		(at 161.29 163.83)
 		(uuid "5b35d491-8d2b-424c-ae77-c1b7f1b93bd2")
-	)
-	(no_connect
-		(at 161.29 77.47)
-		(uuid "5b36f768-8d4c-4fad-9674-b232a66a1747")
 	)
 	(no_connect
 		(at 267.97 156.21)
@@ -8551,10 +8618,6 @@
 		(uuid "5f13d4d1-064f-4fa2-b7b4-8d6fe5c748db")
 	)
 	(no_connect
-		(at 100.33 85.09)
-		(uuid "5f159d76-494a-4969-9fce-d772a498eb1f")
-	)
-	(no_connect
 		(at 100.33 166.37)
 		(uuid "6639f594-331f-4c9e-9354-e70ab08585fe")
 	)
@@ -8565,10 +8628,6 @@
 	(no_connect
 		(at 267.97 158.75)
 		(uuid "6c0c600a-9ad0-44da-80aa-be9989af53d7")
-	)
-	(no_connect
-		(at 161.29 153.67)
-		(uuid "70594d0e-65bc-469c-bb2e-a5b17e78a372")
 	)
 	(no_connect
 		(at 161.29 158.75)
@@ -8587,16 +8646,8 @@
 		(uuid "82db826d-45ad-46ab-ad67-67f2e695ac3a")
 	)
 	(no_connect
-		(at 100.33 130.81)
-		(uuid "89c97190-5cf4-4092-8f93-0d46b046093c")
-	)
-	(no_connect
 		(at 161.29 95.25)
 		(uuid "8e8598a5-2842-4114-afab-486817d24221")
-	)
-	(no_connect
-		(at 100.33 161.29)
-		(uuid "9385924d-b571-445c-89eb-edb27ce0cba3")
 	)
 	(no_connect
 		(at 217.17 137.16)
@@ -8605,18 +8656,6 @@
 	(no_connect
 		(at 161.29 90.17)
 		(uuid "962d08e2-f6f7-4e92-ae02-412c5ff400fe")
-	)
-	(no_connect
-		(at 161.29 130.81)
-		(uuid "9736e994-f9da-4328-983d-632a83d3074b")
-	)
-	(no_connect
-		(at 100.33 146.05)
-		(uuid "98784793-73c9-4e06-9b98-e6519c204e5c")
-	)
-	(no_connect
-		(at 161.29 161.29)
-		(uuid "a1cadf2b-1718-4a3c-83a2-3eb2c6dd0b58")
 	)
 	(no_connect
 		(at 161.29 186.69)
@@ -8635,20 +8674,8 @@
 		(uuid "ac55267d-d9f6-4c20-9123-a530b0599aee")
 	)
 	(no_connect
-		(at 161.29 100.33)
-		(uuid "b2fb4f99-5318-4884-87bf-34b5a9774d82")
-	)
-	(no_connect
-		(at 100.33 92.71)
-		(uuid "b5e1f129-dd0e-4c0a-b6bc-07c5bc40700e")
-	)
-	(no_connect
-		(at 161.29 184.15)
-		(uuid "bcf1a551-3150-452e-85ac-7f998ca876e2")
-	)
-	(no_connect
-		(at 161.29 146.05)
-		(uuid "c06933a1-fa66-4a6d-a924-3859b69ba06e")
+		(at 106.68 321.31)
+		(uuid "b5d1b602-d3ff-4dc5-872b-a96e1508039a")
 	)
 	(no_connect
 		(at 161.29 87.63)
@@ -8675,24 +8702,12 @@
 		(uuid "cf16961c-32fc-4466-92f5-30bcdc45ab2d")
 	)
 	(no_connect
-		(at 100.33 115.57)
-		(uuid "cf3afdf8-0fd7-40af-8990-06e1bf8bf186")
-	)
-	(no_connect
 		(at 161.29 171.45)
 		(uuid "d64f662c-e628-4117-93b4-491ec1760790")
 	)
 	(no_connect
 		(at 217.17 101.6)
 		(uuid "da63f536-8908-407d-be74-7bcd7aacd1ce")
-	)
-	(no_connect
-		(at 100.33 107.95)
-		(uuid "dc28acfa-a778-4018-9a30-1c6cc68b5556")
-	)
-	(no_connect
-		(at 100.33 77.47)
-		(uuid "dd02ebc2-8dc4-41e1-99a2-1e7b31d54546")
 	)
 	(no_connect
 		(at 100.33 148.59)
@@ -8711,14 +8726,6 @@
 		(uuid "e63042e1-dc8c-4c14-a3fd-ea204907138d")
 	)
 	(no_connect
-		(at 100.33 100.33)
-		(uuid "e723c8e2-679c-40f5-8f09-f7232a559471")
-	)
-	(no_connect
-		(at 161.29 168.91)
-		(uuid "e935a209-438e-462c-9e53-f10c4c378e7b")
-	)
-	(no_connect
 		(at 92.71 271.78)
 		(uuid "ea0b60a4-00d8-4c5d-a550-55be81de1d02")
 	)
@@ -8735,20 +8742,8 @@
 		(uuid "f8593fe9-418c-40c6-9fb8-5a73b377cfe0")
 	)
 	(no_connect
-		(at 100.33 138.43)
-		(uuid "f8c4ee9b-2b54-4afa-aaa4-fb7da9d9ad3a")
-	)
-	(no_connect
 		(at 217.17 91.44)
 		(uuid "fbd0335f-2b83-49ea-a1bb-67e30baed2ab")
-	)
-	(no_connect
-		(at 161.29 107.95)
-		(uuid "fedb4199-884d-4aad-a61c-2f87470b0f6f")
-	)
-	(no_connect
-		(at 161.29 74.93)
-		(uuid "fff221c4-2301-459a-a261-55f97d3be6a8")
 	)
 	(wire
 		(pts
@@ -8884,6 +8879,17 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 80.01) (xy 100.33 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "070169a5-4875-4ea3-a080-38246e6e54f9")
+	)
+	(wire
+		(pts
 			(xy 171.45 41.91) (xy 171.45 118.11)
 		)
 		(stroke
@@ -8911,17 +8917,6 @@
 			(type default)
 		)
 		(uuid "0a6a0e4e-7ae9-40aa-ad1e-a7c67fd1aed8")
-	)
-	(wire
-		(pts
-			(xy 97.79 90.17) (xy 97.79 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "0c133ffa-d729-44db-bbfa-f4643168356b")
 	)
 	(wire
 		(pts
@@ -8976,7 +8971,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 162.56) (xy 242.57 162.56)
+			(xy 240.03 162.56) (xy 241.3 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9018,6 +9013,17 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 87.63) (xy 100.33 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "190eea9b-e46f-4c86-8f89-e623501098a0")
+	)
+	(wire
+		(pts
 			(xy 147.32 316.23) (xy 147.32 302.26)
 		)
 		(stroke
@@ -9046,6 +9052,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "1d911008-8d08-42d5-ab65-b930b716b5f7")
+	)
+	(wire
+		(pts
+			(xy 92.71 34.29) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "1d9bb668-22c5-46b5-ada8-cc1f045cbd64")
 	)
 	(wire
 		(pts
@@ -9191,16 +9208,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 161.29) (xy 262.89 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f92acff-fcab-43c2-818a-ecf48a86d42c")
-	)
-	(wire
-		(pts
 			(xy 267.97 124.46) (xy 279.4 124.46)
 		)
 		(stroke
@@ -9333,7 +9340,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 93.98 33.02)
+			(xy 93.98 33.02) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9374,17 +9381,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 100.33 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "3ecd8b0f-71fa-419c-850d-ae162badc530")
-	)
-	(wire
-		(pts
 			(xy 67.31 67.31) (xy 96.52 67.31)
 		)
 		(stroke
@@ -9416,17 +9412,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 34.29) (xy 198.12 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "42c069e8-64e4-4d04-8c96-bf7464724c7b")
-	)
-	(wire
-		(pts
 			(xy 86.36 125.73) (xy 100.33 125.73)
 		)
 		(stroke
@@ -9434,6 +9419,16 @@
 			(type default)
 		)
 		(uuid "42c95b98-2bd3-4e31-9c46-b6692853f3a2")
+	)
+	(wire
+		(pts
+			(xy 241.3 162.56) (xy 242.57 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435544ed-3893-4eec-8cb3-ca76af230fae")
 	)
 	(wire
 		(pts
@@ -9487,6 +9482,17 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 90.17) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "4c212d19-32be-4b0f-836c-e1cae662aa3d")
+	)
+	(wire
+		(pts
 			(xy 77.47 43.18) (xy 77.47 72.39)
 		)
 		(stroke
@@ -9495,6 +9501,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "4c2679e5-7bac-464e-9a42-44e535ec57da")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 100.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "4cb0df8f-b550-46a4-8216-d88b2c94bd20")
 	)
 	(wire
 		(pts
@@ -9722,16 +9739,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 161.29) (xy 262.89 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aae162c-bb63-429b-8d76-db77d5dbdc10")
-	)
-	(wire
-		(pts
 			(xy 33.02 302.26) (xy 33.02 229.87)
 		)
 		(stroke
@@ -9843,13 +9850,14 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 316.23) (xy 90.17 316.23)
+			(xy 95.25 36.83) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 0 194 1)
 		)
-		(uuid "795aa047-d6ea-4d87-b3bb-ca14c3cc1b44")
+		(uuid "7867d84f-09ef-46cc-b62b-4b22217f13af")
 	)
 	(wire
 		(pts
@@ -10005,16 +10013,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 176.53) (xy 222.25 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86190398-70a6-4b43-9683-23bfd5e04001")
-	)
-	(wire
-		(pts
 			(xy 217.17 149.86) (xy 191.77 149.86)
 		)
 		(stroke
@@ -10164,16 +10162,6 @@
 			(type default)
 		)
 		(uuid "9c51645d-6897-4303-83bd-5276db9b19b6")
-	)
-	(wire
-		(pts
-			(xy 90.17 316.23) (xy 41.91 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cb5bbdb-65d7-4ada-9eaf-350b9b051e71")
 	)
 	(wire
 		(pts
@@ -10355,6 +10343,16 @@
 			(type default)
 		)
 		(uuid "af6adaef-10dc-48df-8033-4e985e8443d8")
+	)
+	(wire
+		(pts
+			(xy 335.28 257.81) (xy 332.74 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d832fc-cd36-498a-8c7c-db29dfc451fc")
 	)
 	(wire
 		(pts
@@ -10610,6 +10608,17 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 34.29) (xy 198.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "c4f8dae1-84cd-4ec2-9001-b6d80d7256b4")
+	)
+	(wire
+		(pts
 			(xy 97.79 111.76) (xy 66.04 111.76)
 		)
 		(stroke
@@ -10772,16 +10781,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 162.56) (xy 255.27 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d56739eb-b60d-45ed-b1c2-ba42a555289a")
-	)
-	(wire
-		(pts
 			(xy 25.4 69.85) (xy 25.4 67.31)
 		)
 		(stroke
@@ -10789,17 +10788,6 @@
 			(type default)
 		)
 		(uuid "d88fb026-011a-43f6-a44f-46c1a6ecea2e")
-	)
-	(wire
-		(pts
-			(xy 100.33 82.55) (xy 91.44 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "d8c16081-3d15-4e47-9c56-ac148a159e73")
 	)
 	(wire
 		(pts
@@ -11098,17 +11086,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 97.79 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "ef61bf87-f198-4621-ae2a-9a35cc7c9d93")
-	)
-	(wire
-		(pts
 			(xy 43.18 118.11) (xy 100.33 118.11)
 		)
 		(stroke
@@ -11119,7 +11096,17 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 257.81) (xy 332.74 257.81)
+			(xy 41.91 316.23) (xy 90.17 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f260097a-295e-4b66-81f8-1bf2e0d3752d")
+	)
+	(wire
+		(pts
+			(xy 336.55 257.81) (xy 335.28 257.81)
 		)
 		(stroke
 			(width 0)
@@ -11129,7 +11116,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 82.55) (xy 91.44 30.48)
+			(xy 91.44 30.48) (xy 91.44 87.63)
 		)
 		(stroke
 			(width 0)
@@ -11147,27 +11134,6 @@
 			(type default)
 		)
 		(uuid "f5bb7093-23c2-48fd-b8ed-e7cc275191e1")
-	)
-	(wire
-		(pts
-			(xy 161.29 176.53) (xy 222.25 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ef86c2-44de-4887-a08d-79a2dd274c47")
-	)
-	(wire
-		(pts
-			(xy 100.33 80.01) (xy 93.98 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "f7029bee-add5-456a-af1a-1c249406fc28")
 	)
 	(wire
 		(pts
@@ -11222,17 +11188,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 36.83) (xy 95.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "fb18c67f-7795-4f2b-82ca-c3fcaed2939b")
-	)
-	(wire
-		(pts
 			(xy 35.56 67.31) (xy 38.1 67.31)
 		)
 		(stroke
@@ -11261,6 +11216,46 @@
 		)
 		(uuid "fe172fc5-92f3-4fc6-b835-212bcbc9e4d4")
 	)
+	(label "PER0_N"
+		(at 208.28 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c2d2b63-7ce4-4741-9ed0-ef6f5fe75919")
+	)
+	(label "PET0_P"
+		(at 209.55 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "773e9bf3-6ae6-4314-b33d-8a1d83126c90")
+	)
+	(label "PET0_N"
+		(at 209.55 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79536760-0e0b-4c39-afb2-840226c02658")
+	)
+	(label "PER0_P"
+		(at 208.28 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebc6aeef-5e93-47dd-a5aa-69bac5397e30")
+	)
 	(global_label "PCIE_PWR_EN"
 		(shape input)
 		(at 100.33 67.31 180)
@@ -11279,6 +11274,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_EN"
+		(shape input)
+		(at 161.29 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cbbd0f3-9949-4874-95ee-253689b5cb97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.6209 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11372,6 +11389,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 241.3 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b3cb93-e12b-4b02-8737-35d563a3a236")
+		(property "Reference" "#PWR0100"
+			(at 241.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80be16c0-3c82-4ac7-8d7d-ccd8e8af8ea5")
+		)
+		(instances
+			(project ""
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 147.32 320.04 0)
 		(unit 1)
@@ -11436,6 +11519,73 @@
 			(project "BoatPi"
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f1f34b9-f230-48b3-8c93-28b5321497c9")
+		(property "Reference" "#PWR081"
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aebcce0-de07-4354-abd1-f6c0d24cf47f")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -11512,6 +11662,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e83e48-f4ac-47fe-9dd7-0da5752b52c7")
+		(property "Reference" "#PWR076"
+			(at 93.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc7358d3-83c6-4261-b540-d9eaf02f0b89")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 41.91 320.04 0)
 		(unit 1)
@@ -11576,6 +11793,73 @@
 			(project "BoatPi"
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1622978c-c602-49a8-8a61-c4df8d2a073c")
+		(property "Reference" "#PWR084"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cba095f9-37a1-41f9-829c-0789557902b1")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -11695,6 +11979,73 @@
 			(project ""
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19a1de9c-ce29-4fba-87a4-bfdcb08b73a4")
+		(property "Reference" "#PWR080"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82441790-e960-4ffc-85a7-aede6e9de53f")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -11837,6 +12188,341 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2147a8cb-a8f0-451b-8b1c-f6fd1990b192")
+		(property "Reference" "#PWR092"
+			(at 167.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e92a5660-83d7-42a2-b0ae-c54e8bca1db3")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23e85632-de1e-42db-b3f6-ec34bb8236ae")
+		(property "Reference" "#PWR073"
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "187e18cf-55fb-4777-b562-3a473c406d17")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a5c1619-3e3e-499a-800a-ea6e53382136")
+		(property "Reference" "#PWR091"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c9d83d8-8a45-403d-92f5-245dcdd2aa1c")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3071b53a-32c2-4d04-9e6b-d2ccb08f3228")
+		(property "Reference" "#PWR075"
+			(at 93.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d19272e-c71a-4ab2-87f9-3c49e9b7ff69")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31d9ef89-27a5-4fee-90bc-08c193ab944a")
+		(property "Reference" "#PWR079"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "956567c3-a061-4d4e-82df-89aa9bd97a92")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 247.65 267.97 0)
 		(unit 1)
@@ -11901,6 +12587,73 @@
 			(project ""
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39a45a4e-e818-486b-999c-a843de4f30a2")
+		(property "Reference" "#PWR086"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53cd201b-d21c-46ac-a556-4757522ba649")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -12037,6 +12790,72 @@
 			(project "BoatPi"
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 335.28 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e478dce-7cea-405d-b174-ee028f566343")
+		(property "Reference" "#FLG02"
+			(at 335.28 255.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 335.28 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 335.28 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d47e28f-1f46-45c4-82f5-4cb026e60aa0")
+		)
+		(instances
+			(project ""
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -12504,6 +13323,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 290.83 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5332cbd3-e38e-4b48-9229-e0f46965593e")
+		(property "Reference" "#PWR0102"
+			(at 290.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23d6595f-b94f-470f-9f89-0b584adc3183")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "545b01ad-f1bd-4d4f-91f0-3c6ee6f0620a")
+		(property "Reference" "#PWR074"
+			(at 93.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99667124-c16a-4cb2-a974-b722a8855201")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 209.55 261.62 0)
 		(unit 1)
@@ -12574,6 +13526,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "562933ff-5ee7-4f06-96ec-b1bc1dd7a571")
+		(property "Reference" "#PWR095"
+			(at 167.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa9af09b-a97c-4908-8f16-e532e2d8d089")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57a77983-da09-4f10-bb6a-59880243ca38")
+		(property "Reference" "#PWR082"
+			(at 93.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55faf095-7cbc-4540-b548-4f77193b2091")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 123.19 320.04 0)
 		(unit 1)
@@ -12638,6 +13724,274 @@
 			(project "BoatPi"
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c2d936c-9678-4a1c-aa48-9eff52fc20e8")
+		(property "Reference" "#PWR088"
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aca7a0f5-c34e-480b-967d-028341215c46")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5de71965-ab3e-46c0-9add-4b33e914cad2")
+		(property "Reference" "#PWR089"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a696e283-f64e-48da-8f4b-b52c63c48fe1")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65c45d2b-de73-463e-92db-accfac001f8d")
+		(property "Reference" "#PWR099"
+			(at 167.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03e4d2f9-54d6-4dea-918f-52073c1de153")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "671c147f-5bee-4e76-bf76-f04091557619")
+		(property "Reference" "#PWR097"
+			(at 167.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c30b4686-440a-4e8d-9a48-54ed07a7316f")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -12846,6 +14200,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71d44e29-9c3c-4350-8449-58ce57e2be22")
+		(property "Reference" "#PWR083"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8f972dd-9b95-4230-a0d0-e2b138cc799c")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 25.4 314.96 0)
 		(unit 1)
@@ -13038,6 +14459,73 @@
 			(project ""
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc4c242-1ea2-4ff9-aff2-cd0b272f1d09")
+		(property "Reference" "#PWR072"
+			(at 93.98 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fbcceca-6444-4267-9d27-fe696522fbab")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -13481,6 +14969,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 100.33 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90066d78-aebe-4d58-86be-87516f2d4c4b")
+		(property "Reference" "#PWR085"
+			(at 93.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73a6a430-5e5c-45d5-9ec5-57168a35137f")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 247.65 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13610,6 +15165,73 @@
 			(project ""
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d1d56f2-cd55-4d38-b144-b478acddea48")
+		(property "Reference" "#PWR096"
+			(at 167.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "122f0196-fd4a-47a3-bb03-d4124a571838")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -13748,6 +15370,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a75161aa-914c-43da-bb5a-d6776d5b50fd")
+		(property "Reference" "#PWR090"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cffe992-aeaf-4d95-bf49-44c28fe81aef")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 299.72 261.62 0)
 		(unit 1)
@@ -13812,6 +15501,73 @@
 			(project "BoatPi"
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13ae749-77f8-4fef-8e41-cfdb6ffdc541")
+		(property "Reference" "#PWR093"
+			(at 167.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72e8f95f-cdfd-4eba-be27-59cb9f311ab4")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -14567,6 +16323,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 161.29 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfc95be4-0233-41a1-b1ff-7c043c1610cc")
+		(property "Reference" "#PWR098"
+			(at 167.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f476513d-f549-4e2c-936f-21493d491ed1")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 224.79 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15037,6 +16860,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42b2743-fd3a-4095-99d1-d81b17b572da")
+		(property "Reference" "#PWR094"
+			(at 167.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2507b281-7bfb-4451-98f0-f0c56b005814")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 279.4 101.6 90)
 		(unit 1)
@@ -15246,6 +17136,73 @@
 			(project ""
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d96040e1-0792-452c-8a2d-3fc8d9985de6")
+		(property "Reference" "#PWR077"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0c31907-f74e-4fb3-a83d-97aeea8e4052")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -15906,6 +17863,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 100.33 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7894c1b-d7cc-4ccc-9c25-cea284af64f8")
+		(property "Reference" "#PWR078"
+			(at 93.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fa65fa5-b619-4c2d-9482-c303506985a9")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 135.89 323.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16237,6 +18261,73 @@
 			(project ""
 				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa9cec02-ae23-48e8-9fce-64862fc21eab")
+		(property "Reference" "#PWR087"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bffd4497-524a-477a-a126-fbb11f08139c")
+		)
+		(instances
+			(project "BoatPi"
+				(path "/f5624df3-0379-482b-a515-d4dba6ca8ab3/b4881595-cbcf-44e5-9bc5-27ad692d537d"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)

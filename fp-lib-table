@@ -20,4 +20,5 @@
   (lib (name "10uFCeramPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/C2012X5R1V106M125AC")(options "")(descr ""))
   (lib (name "FuseHolderPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/696315001002 (1)")(options "")(descr ""))
   (lib (name "NewFuseHolderPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/3550-2")(options "")(descr ""))
+  (lib (name "Pico2Pretty")(type "KiCad")(uri "C:/Users/arice/Downloads/SC0917")(options "")(descr ""))
 )
