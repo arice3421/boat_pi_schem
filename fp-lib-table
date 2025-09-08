@@ -21,4 +21,7 @@
   (lib (name "FuseHolderPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/696315001002 (1)")(options "")(descr ""))
   (lib (name "NewFuseHolderPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/3550-2")(options "")(descr ""))
   (lib (name "Pico2Pretty")(type "KiCad")(uri "C:/Users/arice/Downloads/SC0917")(options "")(descr ""))
+  (lib (name "TVSPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/ESDA6V1W5")(options "")(descr ""))
+  (lib (name "SimTVSPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/ESD9L1P8-Diotec-Semiconductor-Symbol-Kicad-1")(options "")(descr ""))
+  (lib (name "SimMicPretty")(type "KiCad")(uri "C:/Users/arice/Downloads/MIC29302WU")(options "")(descr ""))
 )

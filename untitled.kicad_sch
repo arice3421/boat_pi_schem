@@ -9340,6 +9340,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 102.87) (xy 91.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c676dda-d19b-47ed-8bda-decd4f7be40a")
+	)
+	(wire
+		(pts
 			(xy 93.98 33.02) (xy 93.98 90.17)
 		)
 		(stroke
@@ -9958,16 +9968,6 @@
 			(type default)
 		)
 		(uuid "82992c65-31a8-4352-8a54-3ae258f27f8e")
-	)
-	(wire
-		(pts
-			(xy 91.44 102.87) (xy 43.18 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83899981-aa02-4f4c-8872-0b785056c8e9")
 	)
 	(wire
 		(pts
@@ -11216,6 +11216,46 @@
 		)
 		(uuid "fe172fc5-92f3-4fc6-b835-212bcbc9e4d4")
 	)
+	(label "USB_D+"
+		(at 80.01 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09086134-e96c-4321-9796-298b4f3ff7fe")
+	)
+	(label "USB+SSTX-"
+		(at 80.01 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "094402c2-7209-45f6-acc8-7283607f7b62")
+	)
+	(label "USB_SSRX+"
+		(at 80.01 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32a0c589-6447-45dc-951c-c9e539548166")
+	)
+	(label "USB_SSTX+"
+		(at 80.01 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "348b7aef-0f59-4c42-89cb-d53417173a29")
+	)
 	(label "PER0_N"
 		(at 208.28 83.82 0)
 		(effects
@@ -11225,6 +11265,36 @@
 			(justify left bottom)
 		)
 		(uuid "3c2d2b63-7ce4-4741-9ed0-ef6f5fe75919")
+	)
+	(label "HDMI_CK+"
+		(at 45.72 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4108f99d-8f42-4a3b-96f0-02b1dacdbbfb")
+	)
+	(label "HDMI_D2-"
+		(at 45.72 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48306acc-1033-46ca-bb42-144bdd25ebe2")
+	)
+	(label "HDMI_CK-"
+		(at 45.72 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54eed951-62b2-4f95-8d63-6025ea5fe938")
 	)
 	(label "PET0_P"
 		(at 209.55 86.36 0)
@@ -11246,6 +11316,56 @@
 		)
 		(uuid "79536760-0e0b-4c39-afb2-840226c02658")
 	)
+	(label "HDMI_D1-"
+		(at 45.72 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89b15515-72f7-4be5-ac1c-02f5e1f611d9")
+	)
+	(label "HDMI_DO-"
+		(at 45.72 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d441f82-e1de-4d32-a9e9-301595e2957b")
+	)
+	(label "USB_D-"
+		(at 80.01 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdb3579a-cf81-4f6b-bb60-87fca6dbbd8f")
+	)
+	(label "USB_SSRX-"
+		(at 80.01 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3be7b77-4087-4736-9e81-9d11e8cd1e38")
+	)
+	(label "HDMI_D2+"
+		(at 45.72 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de3f3d95-bc76-4349-ae61-a9d1c90e829f")
+	)
 	(label "PER0_P"
 		(at 208.28 81.28 0)
 		(effects
@@ -11255,6 +11375,26 @@
 			(justify left bottom)
 		)
 		(uuid "ebc6aeef-5e93-47dd-a5aa-69bac5397e30")
+	)
+	(label "HDMI_D1+"
+		(at 45.72 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5863a3e-c589-4275-ac61-8835bd46012e")
+	)
+	(label "HDMI_DO+"
+		(at 45.72 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd30a1b2-07d4-46c3-a4e0-1711659bc607")
 	)
 	(global_label "PCIE_PWR_EN"
 		(shape input)
@@ -13217,7 +13357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Video:HDMI_A_Amphenol_10029449-x01xLF_Horizontal"
+		(property "Footprint" "CM5IO:EDAC 690-019-298-412"
 			(at 32.385 97.79 0)
 			(effects
 				(font
@@ -14689,7 +14829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 102.87 325.12 0)
 			(effects
 				(font
@@ -17233,7 +17373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 300.99 158.75 0)
 			(effects
 				(font
@@ -17798,7 +17938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm"
 			(at 234.95 265.43 0)
 			(effects
 				(font

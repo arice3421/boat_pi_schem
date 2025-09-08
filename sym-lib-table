@@ -20,4 +20,7 @@
   (lib (name "10uFCeram")(type "KiCad")(uri "C:/Users/arice/Downloads/C2012X5R1V106M125AC/C2012X5R1V106M125AC.kicad_sym")(options "")(descr ""))
   (lib (name "FuseHolder")(type "KiCad")(uri "C:/Users/arice/Downloads/696315001002/696315001002.kicad_sym")(options "")(descr ""))
   (lib (name "NewFuseHolder")(type "KiCad")(uri "C:/Users/arice/Downloads/3550-2/3550-2.kicad_sym")(options "")(descr ""))
+  (lib (name "TVS")(type "KiCad")(uri "C:/Users/arice/Downloads/ESDA6V1W5/ESDA6V1W5.kicad_sym")(options "")(descr ""))
+  (lib (name "SimTVS")(type "KiCad")(uri "C:/Users/arice/Downloads/ESD9L1P8-Diotec-Semiconductor-Symbol-Kicad-1/tvs-bidirectional-diode.kicad_sym")(options "")(descr ""))
+  (lib (name "SimMic")(type "KiCad")(uri "C:/Users/arice/Downloads/MIC29302WU/MIC29302WU.kicad_sym")(options "")(descr ""))
 )
